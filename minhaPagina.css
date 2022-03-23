@@ -68,13 +68,13 @@ ul li a{
 
 
 .img{
-    height: 600px;
-    width: 491px;
+    height: 495px;
+    width: 525px;
     background-image: url(./img/Wellfoto1.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 90px 10px;
-    border: solid rgb(0, 0, 0) 5px;
+    margin: 140px 30px;
+    border: solid rgb(0, 0, 0) 7px;
     border-radius: 100px; 
     
     
