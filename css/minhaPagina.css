@@ -1,167 +1,177 @@
-@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&family=Righteous&family=Sarala&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&family=Righteous&family=Sarala&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@500&display=swap");
 
-
-body{
-    
-    background-color: #f3f3f3;
-    margin-right: 0px;
-    padding: 20px;
+* {
+  margin: auto;
 }
 
-.conteudo{
-    border: solid;
-    margin: 10px;
-    padding: 0;
-    box-sizing: border-box;
-    border-radius: 15px
+html {
+  padding: 1%;
+  background-color: black;
 }
 
-nav{
-    
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
-    padding: 5px 5%;
-    margin-right: 10px;
-    margin-left: 10px;
+body {
+  background-color: rebeccapurple;
+  border: solid;
+  margin: 2%;
 }
 
-a:hover{
-    color: #f9004d;
-    
+nav {
+  width: 94%;
+  text-decoration: none;
+  border: solid;
+  display: inline-flex;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    to right,
+    rgb(70, 70, 82),
+    rgb(52, 63, 73)
+  );
+  text-decoration: none;
+  border-radius: 15px;
 }
 
-
-nav ul{
-    display: flex;
-    list-style: none;
-    
+header {
+  padding-top: 10px;
+  width: auto 100%;
 }
 
-nav ul li a{
-    margin: 30px;
-    font-family: 'Righteous', cursive;
-    font-weight: bold;
-    color: black;
-    font-size: 17px;
-    
+.conteudo {
+  margin: 1%;
+  border: solid;
+  box-sizing: border-box;
+  border-radius: 15px;
 }
 
-ul li a{
-    text-decoration: none;
-    
+.classeprincipal {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Righteous", cursive;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
-
-#p1{
-    font-family: 'Roboto Slab', serif;
-    color: black;
-    font-size: 28px;
+.classesobre {
+  padding: 20%;
+  border-top: 10px solid #4b179e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rebeccapurple;
+  border-radius: 0px;
 }
 
-
-.img{
-    height: 600px;
-    width: 491px;
-    background-image: url(/img/Wellfoto1.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 90px 10px;
-    border: solid rgb(0, 0, 0) 5px;
-    border-radius: 100px; 
-    
-    
-    
+.corpo {
+  font-family: "Righteous", cursive;
+  margin: 15%;
 }
 
-.classeprincipal{
-    
-    font-family: 'Righteous', cursive;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
+.corpo2 {
+  font-family: "Righteous", cursive;
+  text-align: center;
 }
 
-.corpo p :nth-child(1){
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    color: #6d6d6d;
-    font-size: 40px;
-    
-
-
+a:hover {
+  color: #f9004d;
 }
 
-h1{
-    
-    
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 70px;
-}
-h2{
-    font-family: 'Righteous', cursive;
-    font-size: 28px;
-    margin: 50px;
+nav ul {
+  display: flex;
+  list-style: none;
 }
 
-.corpo{
-    margin: 100px;
-
+nav ul li a {
+  font-family: "Righteous", cursive;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
 }
 
-
-.corpo2{
-
-    font-family: 'Righteous', cursive;
-    text-align: center;
+#navegacao {
+  margin: 1%;
+  padding: 2%;
 }
 
-span{
-    color: #f9004d;
+ul li a {
+  text-decoration: none;
 }
 
-.classesobre{
-    
-    border-top: 0.4px solid #6d6d6d;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: rgb(181, 212, 240);
-    border-radius: 10px;
+nav ul li a {
+  margin: 10px;
+  justify-content: space-between;
 }
 
-.social :hover{
-    color: #f9004d;
-    
+.p1 {
+  font-family: "Roboto Slab", serif;
+  color: black;
+  font-size: 28px;
 }
 
-.ins{
-    color: darkmagenta;
+span {
+  color: #f9004d;
 }
 
-.face{
-    color: blue;
+.social :hover {
+  color: #f9004d;
 }
 
-.git{
-    color: black;
+.ins {
+  color: darkmagenta;
 }
 
-.link{
-    color: rgb(116, 116, 235);
+.face {
+  color: blue;
 }
 
-.social{
-    font-size: 20px;
-    
+.git {
+  color: black;
+}
+
+.link {
+  color: rgb(116, 116, 235);
+}
+
+.social {
+  font-size: 20px;
+}
+
+img {
+  border: solid;
+  border-radius: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.img1 {
+  min-width: 320px;
+  max-width: 800px;
+}
+.nome {
+  font-size: 45px;
+  padding: 30px;
+}
+
+.curso {
+  padding: 10px;
+}
+
+.sobre {
+  padding: 20px;
+  font-size: 40px;
+}
+
+.conhecimento {
+  padding: 20px;
+  font-size: 40px;
+}
+
+.lf {
+  padding: 10px;
 }
